@@ -30,6 +30,7 @@ class Facebook100(InMemoryDataset):
         name (string): name of the college/university (refer to the paper to 
             see the list of names.)
         target (string): The node attribute to be used at the target node label.
+            One of the 'status', 'gender', 'major', 'minor', 'housing', or 'year'.
         transform (callable, optional): A function/transform that takes in an
             :obj:`torch_geometric.data.Data` object and returns a transformed
             version. The data object will be transformed before every access.
