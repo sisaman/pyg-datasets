@@ -40,7 +40,7 @@ class Facebook100(InMemoryDataset):
             transformed version. The data object will be transformed before
             being saved to disk. (default: :obj:`None`)
     """
-    url = 'https://escience.rpi.edu/data/DA/fb100/'
+    url = 'https://github.com/sisaman/pyg-datasets/raw/main/datasets/facebook100/'
     targets = ['status', 'gender', 'major', 'minor', 'housing', 'year']
 
     def __init__(self, root, name, target, transform=None, pre_transform=None):
